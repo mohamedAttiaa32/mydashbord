@@ -1,0 +1,186 @@
+$color--primary:#FF7F5C;
+
+.container-slide{
+    grid-row: 3/4;
+    grid-column: 1/4;
+    // background-color: red;
+    padding: 3.5rem 4.5rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #3D5161;
+  
+   
+   
+
+    .slide-bar{
+        margin-top: -3.5rem;
+        display: flex;
+        align-self: flex-end;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        position: fixed;
+        // padding-top: 1rem;
+        
+.content-bar{
+    display: flex;
+    margin-right: 0.8rem;
+}
+        .btn{
+
+            border: none;
+            background-color: transparent;
+         
+
+        }
+        .link{
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            
+            
+        }
+    }
+
+    .icon{
+        margin:0 0.5rem;
+        
+    }
+
+
+    .active{
+        color: $color--primary;
+
+    }
+
+
+.list-bar{
+    height: 20.5rem;
+    overflow-y: auto;
+     padding-right: 1rem;
+  
+  
+}
+    .list{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+// font-family: 'Roboto', sans-serif;
+        background-color: white;
+        padding-top: 0.2rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        padding-bottom: 0.8rem;
+        border-radius: 1rem;
+        margin-top: 0.8rem;
+        .list-title{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid  #3D5161;;
+
+            .shape-list{
+                height: 8px;
+                width: 8px;
+                background-color:$color--primary ;
+                clip-path: circle(50% at 50% 50%);
+                align-self: center;
+
+            }
+            .logo-list{
+                margin: 1rem;
+                .img{
+                    width: 30px;
+                    height: 30px;
+
+                }
+            
+            
+
+            }
+            .title-list{
+
+                font-weight: 700;
+                font-size: 13px;
+
+
+            }
+        }
+
+        .total-sales-one{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            // text-align: center;
+            .total-sales-item {
+                width: 12rem;
+                margin-right: 1rem ;
+            }
+
+
+
+            margin-top: 1rem;
+        }
+
+
+        .title{
+            font-weight: 700;
+        }
+        .number{
+            font-weight:500;
+        }
+        .compressionState{
+            font-weight: 700;
+        }
+        .max-Transacion{
+            font-weight: 700;
+        }
+    }
+
+
+
+
+
+    .container-graph{
+        background:white;
+        padding:1rem;
+         width:100%;
+         font-family: 'Montserrat', sans-serif;
+         border-radius: 10px;
+    }
+    .graphBar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #758592;
+
+        .graphBarTiltee{
+            font-size: 13px;
+          
+        }
+
+        .graphBarlist{
+            list-style: none;
+            display: flex;
+            .graphBarItem{
+                font-size: 11px;
+                margin:  0 0.5rem;
+                cursor: pointer;
+                transition:  all 0.2s;
+                font-weight: 700;
+           
+                
+            }
+            .active{
+                color: $color--primary;
+
+            }
+            .graphBarItem:hover{
+               
+                color: $color--primary;
+            }
+            
+        }
+
+    }
+}

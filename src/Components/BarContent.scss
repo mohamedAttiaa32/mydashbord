@@ -1,0 +1,78 @@
+$color--primary:#FF7F5C;
+$color--secondary:#F9F5F3;
+
+.container-barContent{
+    color: #3D5161;
+   
+    grid-row: 2/3;
+    grid-column:1/4 ;
+    padding: 3.5rem 4.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+    .card{
+        background-color: white;
+        padding: 1rem;
+        border-radius: 1rem;
+        width: 11rem;
+        
+
+        .card-number{
+            font-size: 1.5rem;
+            
+        }
+        .card-type{
+            font-size: 1rem;
+            margin-left: 0.3rem;
+        }
+
+        .card-total{
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+
+        .card-shape{
+            margin-top: 0.5rem;
+            display: flex;
+         
+            
+        }
+       
+       .shape-high{
+        width: 9px;
+        height: 9px;
+        // clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            background-color: #00CBC0;
+        margin-right: 0.3rem;
+        margin-top: 0.2rem;
+        
+       }
+
+       .shape-text-high{
+        color:#00CBC0 ;
+        font-size: 12px;
+       }
+    }
+    .active{
+        background-color: #F4DBD4;
+    }
+
+    .shape{
+        width: 9px;
+        height: 9px;
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+        // clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            background-color:$color--primary;
+        margin-right: 0.3rem;
+        margin-top: 0.2rem;
+
+    }
+       .shape-text{
+        color:$color--primary ;
+        font-size: 12px;
+       }
+}

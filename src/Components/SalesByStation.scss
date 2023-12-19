@@ -1,0 +1,72 @@
+$color--primary:#FF7F5C;
+
+.container-salesBy{
+
+  grid-row: 3/4;
+  grid-column: 4/5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #3D5161;
+  margin-right: 2rem;
+ .salesBy-titlee{
+    font-weight: 700;
+    
+
+ }
+
+
+  .list-salesBy{
+  margin-top: 2rem;
+    width: 85%;
+   
+    // margin-left: -5rem;
+ 
+    .list-contby{
+        padding: 1rem;
+        display: flex;
+
+    
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3rem;
+       
+        // border-radius: 44px;
+      
+       
+    }
+
+// .list-contby::after{
+//     content: "";
+//     width: 100px;
+//     height: 10px;
+//     background:linear-gradient(to right, red,green)
+    
+// }
+    .imgTilte-salesby{
+        display: flex;
+        align-items: center;
+    
+
+        .img{
+
+        }
+.list-contbyTitle{
+    font-size: 12px;
+    margin-left: 0.5rem;
+    font-weight: 700;
+
+}
+    }
+
+   
+    .salesby-number{
+        font-size: 14px;
+        font-weight: 700;
+    }
+  }
+
+}

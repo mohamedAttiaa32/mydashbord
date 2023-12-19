@@ -1,0 +1,28 @@
+$color--primary:#FF7F5C;
+.nav-container{
+    padding: 2.3rem 0;
+    align-items: center;
+    background-color: $color--primary;
+    min-width:70px;
+    border-radius: 0px 24px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .nav-img__front{
+        width: 45px;
+        height: 45px;
+    }
+
+    .nav-img__back{
+        width: 35px;
+        height: 35px;
+
+    }
+    .nav-img{
+        width: 25px;
+        height: 25px;
+        margin: 0.6rem 0;
+    }
+    
+}
